@@ -1,0 +1,68 @@
+
+@media (min-width:1000px){
+
+
+    body{
+        background-color: darkcyan;
+    } 
+    h1{
+     color: white;
+    }
+    h3{
+        color: white;
+    }
+    #logo{
+        margin: 20px 0px 0px 20px;
+        border-radius: 50px;
+    }
+    header{
+        height: 400px;
+        background-color: black;
+        color: white;
+    }
+    
+ #carru{
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+ }   
+    
+    #NombreArticulo{
+        color: black;
+    }
+    .Bloque1{
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        border: 300px black;
+    }
+    .Bloque1:hover{
+        border:2px darkblue solid;
+    }
+    
+    
+    .Contenedor{
+        display: flex;
+        justify-content: space-around;
+        color: black;
+    }
+    .Contenedor:hover{
+         border-color: blue;
+    }
+    
+    .contenedorFooter{
+        display: flex;
+        justify-content: space-around;
+        color: black;
+    }
+}@media(max-width:501px){
+    body{
+     background-color: chartreuse;   
+    }
+    main{
+        margin: 25px;
+        background-color: azure;
+        border: 2px
+        
+    }
+}
